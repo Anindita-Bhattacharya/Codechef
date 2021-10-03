@@ -1,0 +1,10 @@
+t=int(input())
+while(t>0):
+    count=0
+    n=int(input())
+    while(n!=0):
+        a=n%10 
+        count=count+a 
+        n=n//10 
+    print(count)
+    t=t-1
